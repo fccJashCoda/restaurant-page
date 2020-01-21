@@ -1,0 +1,172 @@
+/* GLOBALS */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color:#fff;
+    margin:0;
+    padding:0;
+    background:url('images/light.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height:100vh;
+    min-height:100%;
+    overflow: hidden;
+}
+
+#layer {
+    background: rgba(0,0,0,0.2);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:100%;
+    position: fixed;
+}
+
+.active {
+    border-bottom:5px solid skyblue;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#content {
+    max-height: 100%;
+    height: 100%;
+}
+/* HEADER */
+header {
+    background:#222;
+    width:100%;
+    position: relative;
+    z-index: 1;
+}
+
+header .container {
+    display:flex;
+    width:70%;
+    margin:auto;
+}
+
+header .container ul {
+    margin-top:20px;
+}
+
+header .container ul li {
+    display:inline;
+    list-style: none;
+    font-size:1.5rem;
+    padding:1.3rem 1.5rem;
+    border-left:1px solid gold;
+    background: #111;
+}
+
+header .container ul li:last-child {
+    border-right: 1px solid gold;
+}
+
+header .container ul li:hover {
+    cursor: pointer;
+    color:gold;
+    background:#222;
+}
+
+header .container ul li .activeItem {
+    border-bottom: 5px solid skyblue;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* HOMECONTENT */
+.homeContent {
+    text-align: center;
+    position: relative;
+    height: 100%;
+    z-index: 1;
+}
+
+.homeContent h1 {
+    font-size: 5rem;
+    top:50%;
+    margin-top:30vh;
+}
+
+.homeContent p {
+    font-size: 1.5rem;
+}
+
+/* MENUCONTENT */
+.menuContent {
+    display: none;
+    position: relative;
+    width: 1280px;
+    margin: auto;
+    background: #000;
+    overflow: auto;
+    z-index: 1;
+    max-height: 90%;
+}
+
+.menuContent ul {
+    margin-left: 8rem;
+    list-style: none;
+}
+
+.menuContent ul li h3{
+    font-size: 2rem;
+    text-decoration: underline;
+    text-decoration-color: gold;
+    margin-bottom:7px;
+}
+
+.menuContent ul li p{
+    margin-top: 6px;
+}
+
+
+
+.menuTitle {
+    text-align: center;
+    font-size: 3rem;
+    text-decoration: underline;
+    text-decoration-color: gold;
+}
+
+/* CONTACT CONTENT */
+.contactContent {
+    display: none;
+    position: relative;
+    height: 100%;
+    width: 1280px;
+    margin: auto;
+    background: #000;
+    overflow: auto;
+    z-index: 1;
+}
+
+
+/* FOOTER*/
+footer {
+    position: sticky;
+    left:0;
+    bottom: 0;
+    right:0;
+    background:#222;
+    padding:1rem;
+    text-align: center;
+    z-index: 1;
+}
+
+/* BUTTONS */
+.btn-primary {
+    width:200px;
+    border:none;
+    padding:1rem;
+    font-size: 1.7rem;
+    border-radius: 10px;
+    background:#222;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    cursor: pointer;
+    background: #111;
+}
