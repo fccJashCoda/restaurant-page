@@ -2,12 +2,12 @@ const menu = () => {
     let content = document.querySelector('#content');
 
     let burgerList = [
-        ['CheeseBurger', '$12,50', 'Viande pure bœuf, fromage, oignons, tomates, cornichons'],
-        ['Bacon-cheese burger', '$13,50', 'Viande pure bœuf, lard, fromage, barbecue, crudités'],
-        ['Crispy-Chicken Burger', '$15,50', 'Filet de poulet croustillant, crudités'],
-        ['Veggie-burger', '$15,50', 'Galette de légumes, sauce tomate, crudités'],
-        ['Black Salmon Burger', '$17,50', 'Viande, fromage, saumon et crudités'],
-        ['Double Beef', '$17,50', 'Double boeuf, double fromage, crudités'],
+        ['CheeseBurger', '$12,50', 'Pure beef, cheddar cheese, onions, tomatoes, sweet pickles'],
+        ['Bacon-cheese burger', '$13,50', 'Pure beef, bacon, cheddar cheese, barbecue sauce, garnish'],
+        ['Crispy-Chicken Burger', '$15,50', 'Crispy chicken filet, honey mustard sauce, garnish'],
+        ['Veggie-burger', '$15,50', 'Veggie patties, tomato sauce, garnish'],
+        ['Black Salmon Burger', '$17,50', 'Beef, cheese, salmon and garnish'],
+        ['Double Beef', '$17,50', 'Double beef patties, double cheese, garnish'],
                     ] 
                     
     let shakesList = [
